@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4242129D170B1EDC00636ED5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4242129C170B1EDC00636ED5 /* UIKit.framework */; };
+		4242129F170B1EDC00636ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4242129E170B1EDC00636ED5 /* Foundation.framework */; };
+		424212A1170B1EDC00636ED5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424212A0170B1EDC00636ED5 /* CoreGraphics.framework */; };
+		424212A7170B1EDC00636ED5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 424212A5170B1EDC00636ED5 /* InfoPlist.strings */; };
+		424212A9170B1EDC00636ED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 424212A8170B1EDC00636ED5 /* main.m */; };
+		424212AD170B1EDC00636ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 424212AC170B1EDC00636ED5 /* AppDelegate.m */; };
+		424212AF170B1EDC00636ED5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 424212AE170B1EDC00636ED5 /* Default.png */; };
+		424212B1170B1EDC00636ED5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424212B0170B1EDC00636ED5 /* Default@2x.png */; };
+		424212B3170B1EDC00636ED5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424212B2170B1EDC00636ED5 /* Default-568h@2x.png */; };
+		424212B6170B1EDC00636ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424212B5170B1EDC00636ED5 /* ViewController.m */; };
+		424212B9170B1EDC00636ED5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424212B7170B1EDC00636ED5 /* ViewController.xib */; };
+		424212D8170B215B00636ED5 /* Instrument.m in Sources */ = {isa = PBXBuildFile; fileRef = 424212D7170B215B00636ED5 /* Instrument.m */; };
+		424212DB170B227C00636ED5 /* MyInstrumentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 424212DA170B227C00636ED5 /* MyInstrumentList.m */; };
+		42421341170B2E8700636ED5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42421340170B2E8700636ED5 /* QuartzCore.framework */; };
+		424213C0170C62DE00636ED5 /* StockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 424213BF170C62DE00636ED5 /* StockManager.m */; };
+		424D9495171D6A5D00068C86 /* green-up-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 424D9491171D6A5D00068C86 /* green-up-arrow.png */; };
+		424D9496171D6A5D00068C86 /* green-up-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424D9492171D6A5D00068C86 /* green-up-arrow@2x.png */; };
+		424D9497171D6A5D00068C86 /* red-down-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424D9493171D6A5D00068C86 /* red-down-arrow@2x.png */; };
+		424D9498171D6A5D00068C86 /* red-down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 424D9494171D6A5D00068C86 /* red-down-arrow.png */; };
+		424EE2DF1757924D0063496F /* 44_no_sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2D81757924D0063496F /* 44_no_sort.png */; };
+		424EE2E01757924D0063496F /* 44_no_sort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2D91757924D0063496F /* 44_no_sort@2x.png */; };
+		424EE2E11757924D0063496F /* 44_sort_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2DA1757924D0063496F /* 44_sort_down.png */; };
+		424EE2E21757924D0063496F /* 44_sort_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2DB1757924D0063496F /* 44_sort_down@2x.png */; };
+		424EE2E31757924D0063496F /* 44_sort_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2DC1757924D0063496F /* 44_sort_up.png */; };
+		424EE2E41757924D0063496F /* 44_sort_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 424EE2DD1757924D0063496F /* 44_sort_up@2x.png */; };
+		424EE2E51757924D0063496F /* ShinobiGrids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424EE2DE1757924D0063496F /* ShinobiGrids.framework */; };
+		4264B4AB170DBE4A00F43434 /* UpdateHighlightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4264B4AA170DBE4A00F43434 /* UpdateHighlightCell.m */; };
+		4264B591170EDCDE00F43434 /* UpdateInstrumentNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4264B590170EDCDE00F43434 /* UpdateInstrumentNameCell.m */; };
+		427B64FE1712C46700158C9A /* wavegrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 427B64FC1712C46700158C9A /* wavegrid.png */; };
+		427B64FF1712C46700158C9A /* wavegrid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 427B64FD1712C46700158C9A /* wavegrid@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42421299170B1EDC00636ED5 /* FinancialGridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialGridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4242129C170B1EDC00636ED5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4242129E170B1EDC00636ED5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		424212A0170B1EDC00636ED5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		424212A4170B1EDC00636ED5 /* FinancialGridDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinancialGridDemo-Info.plist"; sourceTree = "<group>"; };
+		424212A6170B1EDC00636ED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		424212A8170B1EDC00636ED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		424212AA170B1EDC00636ED5 /* FinancialGridDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinancialGridDemo-Prefix.pch"; sourceTree = "<group>"; };
+		424212AB170B1EDC00636ED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		424212AC170B1EDC00636ED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		424212AE170B1EDC00636ED5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		424212B0170B1EDC00636ED5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		424212B2170B1EDC00636ED5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		424212B4170B1EDC00636ED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		424212B5170B1EDC00636ED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		424212B8170B1EDC00636ED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		424212D6170B215B00636ED5 /* Instrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instrument.h; sourceTree = "<group>"; };
+		424212D7170B215B00636ED5 /* Instrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instrument.m; sourceTree = "<group>"; };
+		424212D9170B227C00636ED5 /* MyInstrumentList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInstrumentList.h; sourceTree = "<group>"; };
+		424212DA170B227C00636ED5 /* MyInstrumentList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInstrumentList.m; sourceTree = "<group>"; };
+		42421340170B2E8700636ED5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		424213BE170C62DE00636ED5 /* StockManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockManager.h; sourceTree = "<group>"; };
+		424213BF170C62DE00636ED5 /* StockManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockManager.m; sourceTree = "<group>"; };
+		424D9491171D6A5D00068C86 /* green-up-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-up-arrow.png"; sourceTree = "<group>"; };
+		424D9492171D6A5D00068C86 /* green-up-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-up-arrow@2x.png"; sourceTree = "<group>"; };
+		424D9493171D6A5D00068C86 /* red-down-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-down-arrow@2x.png"; sourceTree = "<group>"; };
+		424D9494171D6A5D00068C86 /* red-down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-down-arrow.png"; sourceTree = "<group>"; };
+		424EE2D81757924D0063496F /* 44_no_sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44_no_sort.png; sourceTree = "<group>"; };
+		424EE2D91757924D0063496F /* 44_no_sort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44_no_sort@2x.png"; sourceTree = "<group>"; };
+		424EE2DA1757924D0063496F /* 44_sort_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44_sort_down.png; sourceTree = "<group>"; };
+		424EE2DB1757924D0063496F /* 44_sort_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44_sort_down@2x.png"; sourceTree = "<group>"; };
+		424EE2DC1757924D0063496F /* 44_sort_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44_sort_up.png; sourceTree = "<group>"; };
+		424EE2DD1757924D0063496F /* 44_sort_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44_sort_up@2x.png"; sourceTree = "<group>"; };
+		424EE2DE1757924D0063496F /* ShinobiGrids.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiGrids.framework; sourceTree = "<group>"; };
+		4264B4A9170DBE4A00F43434 /* UpdateHighlightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateHighlightCell.h; sourceTree = "<group>"; };
+		4264B4AA170DBE4A00F43434 /* UpdateHighlightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateHighlightCell.m; sourceTree = "<group>"; };
+		4264B58F170EDCDE00F43434 /* UpdateInstrumentNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateInstrumentNameCell.h; sourceTree = "<group>"; };
+		4264B590170EDCDE00F43434 /* UpdateInstrumentNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateInstrumentNameCell.m; sourceTree = "<group>"; };
+		427B64FC1712C46700158C9A /* wavegrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wavegrid.png; sourceTree = "<group>"; };
+		427B64FD1712C46700158C9A /* wavegrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wavegrid@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42421296170B1EDC00636ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42421341170B2E8700636ED5 /* QuartzCore.framework in Frameworks */,
+				4242129D170B1EDC00636ED5 /* UIKit.framework in Frameworks */,
+				4242129F170B1EDC00636ED5 /* Foundation.framework in Frameworks */,
+				424212A1170B1EDC00636ED5 /* CoreGraphics.framework in Frameworks */,
+				424EE2E51757924D0063496F /* ShinobiGrids.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42421290170B1EDC00636ED5 = {
+			isa = PBXGroup;
+			children = (
+				424212A2170B1EDC00636ED5 /* FinancialGridDemo */,
+				4242129B170B1EDC00636ED5 /* Frameworks */,
+				4242129A170B1EDC00636ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4242129A170B1EDC00636ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42421299170B1EDC00636ED5 /* FinancialGridDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4242129B170B1EDC00636ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				424EE2D61757924D0063496F /* ShinobiGrids.embeddedframework */,
+				42421340170B2E8700636ED5 /* QuartzCore.framework */,
+				4242129C170B1EDC00636ED5 /* UIKit.framework */,
+				4242129E170B1EDC00636ED5 /* Foundation.framework */,
+				424212A0170B1EDC00636ED5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		424212A2170B1EDC00636ED5 /* FinancialGridDemo */ = {
+			isa = PBXGroup;
+			children = (
+				424212AB170B1EDC00636ED5 /* AppDelegate.h */,
+				424212AC170B1EDC00636ED5 /* AppDelegate.m */,
+				424212B4170B1EDC00636ED5 /* ViewController.h */,
+				424212B5170B1EDC00636ED5 /* ViewController.m */,
+				424212B7170B1EDC00636ED5 /* ViewController.xib */,
+				424212C1170B20A100636ED5 /* Grid */,
+				424212A3170B1EDC00636ED5 /* Supporting Files */,
+			);
+			path = FinancialGridDemo;
+			sourceTree = "<group>";
+		};
+		424212A3170B1EDC00636ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				424D9499171D6A6000068C86 /* Images */,
+				424212A4170B1EDC00636ED5 /* FinancialGridDemo-Info.plist */,
+				424212A5170B1EDC00636ED5 /* InfoPlist.strings */,
+				424212A8170B1EDC00636ED5 /* main.m */,
+				424212AA170B1EDC00636ED5 /* FinancialGridDemo-Prefix.pch */,
+				424212AE170B1EDC00636ED5 /* Default.png */,
+				424212B0170B1EDC00636ED5 /* Default@2x.png */,
+				424212B2170B1EDC00636ED5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		424212C1170B20A100636ED5 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				42421360170C3D4D00636ED5 /* Custom Cells */,
+				424212D5170B212E00636ED5 /* Data */,
+			);
+			name = Grid;
+			sourceTree = "<group>";
+		};
+		424212D5170B212E00636ED5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				424212D6170B215B00636ED5 /* Instrument.h */,
+				424212D7170B215B00636ED5 /* Instrument.m */,
+				424212D9170B227C00636ED5 /* MyInstrumentList.h */,
+				424212DA170B227C00636ED5 /* MyInstrumentList.m */,
+				424213BE170C62DE00636ED5 /* StockManager.h */,
+				424213BF170C62DE00636ED5 /* StockManager.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		42421360170C3D4D00636ED5 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4264B4A9170DBE4A00F43434 /* UpdateHighlightCell.h */,
+				4264B4AA170DBE4A00F43434 /* UpdateHighlightCell.m */,
+				4264B58F170EDCDE00F43434 /* UpdateInstrumentNameCell.h */,
+				4264B590170EDCDE00F43434 /* UpdateInstrumentNameCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		424D9499171D6A6000068C86 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				427B64FC1712C46700158C9A /* wavegrid.png */,
+				427B64FD1712C46700158C9A /* wavegrid@2x.png */,
+				424D9491171D6A5D00068C86 /* green-up-arrow.png */,
+				424D9492171D6A5D00068C86 /* green-up-arrow@2x.png */,
+				424D9493171D6A5D00068C86 /* red-down-arrow@2x.png */,
+				424D9494171D6A5D00068C86 /* red-down-arrow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		424EE2D61757924D0063496F /* ShinobiGrids.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				424EE2D71757924D0063496F /* Resources */,
+				424EE2DE1757924D0063496F /* ShinobiGrids.framework */,
+			);
+			name = ShinobiGrids.embeddedframework;
+			path = ../../../../Frameworks/ShinobiGrids.embeddedframework;
+			sourceTree = "<group>";
+		};
+		424EE2D71757924D0063496F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				424EE2D81757924D0063496F /* 44_no_sort.png */,
+				424EE2D91757924D0063496F /* 44_no_sort@2x.png */,
+				424EE2DA1757924D0063496F /* 44_sort_down.png */,
+				424EE2DB1757924D0063496F /* 44_sort_down@2x.png */,
+				424EE2DC1757924D0063496F /* 44_sort_up.png */,
+				424EE2DD1757924D0063496F /* 44_sort_up@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42421298170B1EDC00636ED5 /* FinancialGridDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424212BC170B1EDC00636ED5 /* Build configuration list for PBXNativeTarget "FinancialGridDemo" */;
+			buildPhases = (
+				42421295170B1EDC00636ED5 /* Sources */,
+				42421296170B1EDC00636ED5 /* Frameworks */,
+				42421297170B1EDC00636ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinancialGridDemo;
+			productName = FinancialGridDemo;
+			productReference = 42421299170B1EDC00636ED5 /* FinancialGridDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42421291170B1EDC00636ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ShinobiControls;
+			};
+			buildConfigurationList = 42421294170B1EDC00636ED5 /* Build configuration list for PBXProject "FinancialGridDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42421290170B1EDC00636ED5;
+			productRefGroup = 4242129A170B1EDC00636ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42421298170B1EDC00636ED5 /* FinancialGridDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42421297170B1EDC00636ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424212A7170B1EDC00636ED5 /* InfoPlist.strings in Resources */,
+				424212AF170B1EDC00636ED5 /* Default.png in Resources */,
+				424212B1170B1EDC00636ED5 /* Default@2x.png in Resources */,
+				424212B3170B1EDC00636ED5 /* Default-568h@2x.png in Resources */,
+				424212B9170B1EDC00636ED5 /* ViewController.xib in Resources */,
+				427B64FE1712C46700158C9A /* wavegrid.png in Resources */,
+				427B64FF1712C46700158C9A /* wavegrid@2x.png in Resources */,
+				424D9495171D6A5D00068C86 /* green-up-arrow.png in Resources */,
+				424D9496171D6A5D00068C86 /* green-up-arrow@2x.png in Resources */,
+				424D9497171D6A5D00068C86 /* red-down-arrow@2x.png in Resources */,
+				424D9498171D6A5D00068C86 /* red-down-arrow.png in Resources */,
+				424EE2DF1757924D0063496F /* 44_no_sort.png in Resources */,
+				424EE2E01757924D0063496F /* 44_no_sort@2x.png in Resources */,
+				424EE2E11757924D0063496F /* 44_sort_down.png in Resources */,
+				424EE2E21757924D0063496F /* 44_sort_down@2x.png in Resources */,
+				424EE2E31757924D0063496F /* 44_sort_up.png in Resources */,
+				424EE2E41757924D0063496F /* 44_sort_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42421295170B1EDC00636ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424212A9170B1EDC00636ED5 /* main.m in Sources */,
+				424212AD170B1EDC00636ED5 /* AppDelegate.m in Sources */,
+				424212B6170B1EDC00636ED5 /* ViewController.m in Sources */,
+				424212D8170B215B00636ED5 /* Instrument.m in Sources */,
+				424212DB170B227C00636ED5 /* MyInstrumentList.m in Sources */,
+				424213C0170C62DE00636ED5 /* StockManager.m in Sources */,
+				4264B4AB170DBE4A00F43434 /* UpdateHighlightCell.m in Sources */,
+				4264B591170EDCDE00F43434 /* UpdateInstrumentNameCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		424212A5170B1EDC00636ED5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424212A6170B1EDC00636ED5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		424212B7170B1EDC00636ED5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424212B8170B1EDC00636ED5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		424212BA170B1EDC00636ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		424212BB170B1EDC00636ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424212BD170B1EDC00636ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ShinobiGrids.embeddedframework\"",
+					"\"$(SRCROOT)/../../../../Desktop/ShinobiGrids/ShinobiGrids.embeddedframework\"",
+					"\"$(SRCROOT)/../../../../Frameworks/ShinobiGrids.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinancialGridDemo/FinancialGridDemo-Prefix.pch";
+				INFOPLIST_FILE = "FinancialGridDemo/FinancialGridDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		424212BE170B1EDC00636ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ShinobiGrids.embeddedframework\"",
+					"\"$(SRCROOT)/../../../../Desktop/ShinobiGrids/ShinobiGrids.embeddedframework\"",
+					"\"$(SRCROOT)/../../../../Frameworks/ShinobiGrids.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinancialGridDemo/FinancialGridDemo-Prefix.pch";
+				INFOPLIST_FILE = "FinancialGridDemo/FinancialGridDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42421294170B1EDC00636ED5 /* Build configuration list for PBXProject "FinancialGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424212BA170B1EDC00636ED5 /* Debug */,
+				424212BB170B1EDC00636ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424212BC170B1EDC00636ED5 /* Build configuration list for PBXNativeTarget "FinancialGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424212BD170B1EDC00636ED5 /* Debug */,
+				424212BE170B1EDC00636ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42421291170B1EDC00636ED5 /* Project object */;
+}
